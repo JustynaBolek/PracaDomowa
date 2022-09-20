@@ -16,7 +16,7 @@ public class Main {
             if (x>18&25<x) {
                 System.out.println("You have free drink");
             } else {
-                System.out.println("Sorry you are too old");
+                System.out.println("Sorry you are too old to get a free drink");
             }
         }
         else {
