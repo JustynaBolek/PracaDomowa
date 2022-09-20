@@ -11,7 +11,7 @@ public class Main {
         Scanner scanner2 = new Scanner(System.in);
         System.out.println("How old are you?");
         int x = scanner2.nextInt();
-        if (x>18){
+        if (x>=18){
             System.out.println(name + " " + surname + " you can come in");
         }else {
             System.out.println(name + " " + surname + " you are too young to come in");
