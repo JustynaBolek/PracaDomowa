@@ -6,11 +6,9 @@ public class HomeworkJava {
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
         System.out.println("What's your surname?");
-        Scanner scanner1 = new Scanner(System.in);
-        String surname = scanner1.nextLine();
-        Scanner scanner2 = new Scanner(System.in);
+        String surname = scanner.nextLine();
         System.out.println("How old are you?");
-        int x = scanner2.nextInt();
+        int x = scanner.nextInt();
         if (x>18){
             System.out.println(name + " " + surname + " you can come in");
         }else {
